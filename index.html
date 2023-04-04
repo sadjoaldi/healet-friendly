@@ -16,23 +16,36 @@
   </head>
   <body>
     <!-- ********HEADER    NAVBAR********* -->
-    <header>
-      <nav class="navbar">
-        <a class="navbar-brand">
-          <span>Healet</span>
-        </a>
-        <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>contact</li>
-        </ul>
-        <button type="btn">
-          shop
-          <span class="s1"></span>
-          <span class="s2"></span>
-          <span class="s3"></span>
-        </button>
-      </nav>
+    <header class="header-section">
+      <div class="head-nav-container">
+        <nav class="navbar">
+          <a class="navbar-brand">
+            <span id="wave">Healet</span>
+          </a>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>contact</li>
+          </ul>
+          <div class="shop_btn-container" id="">
+            <div class="custom-menu_btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+              <div id="myNav" class="overlay">
+                <div class="overlay-container">
+                  <a href="index.html">home</a>
+                  <a href="about.html">about</a>
+                  <a href="shop.html">shop</a>
+                  <a href="blog.html">blog</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
       <!-- ******SECTION DU SLIDER BG********* -->
