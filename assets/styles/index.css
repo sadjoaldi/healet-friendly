@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Atkinson";
+  src: url(../fonts/AtkinsonHyperlegible-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Poppins, serif;
+}
+
+header {
+  height: 100vh;
+  background: url(../img/slider-bg.jpg) center/cover;
+}
+header .head-nav-container {
+  color: whitesmoke;
+}
+header .head-nav-container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head-nav-container .navbar .navbar-brand {
+  margin: 15px 25px;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+header .head-nav-container .nav-container {
+  width: 500px;
+  padding: 45px 70px;
+}
+header .head-nav-container .nav-container h1 {
+  font-size: 2.9rem;
+  line-height: 50px;
+  margin: 36px 0;
+}
+header .head-nav-container .nav-container p {
+  margin: 0 0 35px;
+  font-size: 0.73em;
+}
+header .head-nav-container .nav-container button {
+  padding: 12px 29px;
+  background: none;
+  color: whitesmoke;
+  cursor: pointer;
+  border-color: orange;
+}
+
+body {
+  background: none;
+}/*# sourceMappingURL=index.css.map */

@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Smooch+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Smooch+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"); */
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -38,27 +38,27 @@ body {
 .navbar-brand:hover {
   cursor: pointer;
   color: rgb(139, 203, 211);
-  transition: 0.7s;
-}
+  transition: 0.7s; */
+/* } */
 /* ***essayer d'appliquer une animation plustard******* */
 /* #wave {
   animation: backwards;
 } */
-.navbar ul {
+/* .navbar ul {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   align-items: center;
   font-size: 0.6rem;
 }
-.shop_btn-container {
+.shop_btn-container { */
   /* background-color: aliceblue;
   border-radius: 100px;
   height: 45px;
   width: 50px;
   margin: 20px;
   cursor: pointer; */
-}
+/* }
 .custom-menu_btn button {
   background: #000;
   width: 30px;
@@ -69,8 +69,8 @@ body {
   margin: 20px;
   cursor: pointer;
   border: none;
-}
-.overlay {
+} */
+/* .overlay {
   background: transparent;
 }
 .overlay-container {
@@ -134,7 +134,7 @@ body {
   font-weight: bold;
   font-size: 0.8rem;
   width: 300px;
-}
+} */
 /* display: flex;
   align-items: center;
   -webkit-box-flex: 1;

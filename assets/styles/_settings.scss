@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Atkinson";
+  src: url(../fonts/AtkinsonHyperlegible-Regular.ttf);
+}
+
+$font1: Poppins, serif;
+$font2: Atkinson, serif;
+$white1: rgba(240, 236, 236, 0.89);
+$gray1: rgb(209, 207, 207);
+$orange1: rgba(253, 106, 9, 0.925);
+$black1: rgba(31, 28, 28, 0.726);
+$color1: white;
+
+@mixin head {
+  font-family: Poppins;
+  font-size: 2.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: $font1;
+}

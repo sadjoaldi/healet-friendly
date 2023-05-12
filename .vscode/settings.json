@@ -1,0 +1,6 @@
+{
+    "testExplorer.addToEditorContextMenu": false,
+    "prettier.useTabs": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true
+}
