@@ -72,6 +72,31 @@ header .head-nav-container .nav-container button:hover {
   transition: 0.5s;
 }
 
-body {
-  background: none;
+.products {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.products .head-container h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 0 20px;
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+.products .product-img-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.products .product-img-container .rows {
+  display: grid;
+  gap: 30px;
+  background: #eeeeee;
+  height: 90%;
+}
+.products .product-img-container .rows .box-container {
+  background: url(../img/p1.png) center/cover;
+  height: 100px;
+}
+.products .product-img-container .rows .box-container img {
+  width: 50%;
 }/*# sourceMappingURL=index.css.map */
