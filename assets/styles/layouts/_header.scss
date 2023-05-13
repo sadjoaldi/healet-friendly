@@ -18,26 +18,38 @@ header {
     }
 
     .nav-container {
-      width: 500px;
+      width: 50%;
       padding: 45px 70px;
+      margin: 15px 60px;
       // margin: 0 auto;
 
       h1 {
         font-size: 2.9rem;
-        line-height: 50px;
+        line-height: 60px;
         margin: 36px 0;
+        width: 500px;
       }
       p {
         margin: 0 0 35px;
-        font-size: 0.73em;
+        font-size: 0.93em;
       }
 
       button {
-        padding: 12px 29px;
+        font-size: 1rem;
+        padding: 10px 40px;
         background: none;
-        color: whitesmoke;
+        color: #fd9c6b;
         cursor: pointer;
-        border-color: orange;
+
+        border-radius: 5px;
+        border: 1px solid #fd9c6b;
+
+        &:hover {
+          content: "";
+          background: #fd9c6b;
+          color: whitesmoke;
+          transition: 0.5s;
+        }
       }
     }
   }
