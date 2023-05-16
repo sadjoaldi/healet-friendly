@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- ********HEADER    NAVBAR********* -->
-    <header class="header-section">
+    <header>
       <div class="head-nav-container">
         <nav class="navbar">
           <a class="navbar-brand">
@@ -24,18 +24,27 @@
           </a>
           <button>bouton</button>
         </nav>
-        <div class="nav-container">
-          <h1>Best Jewellery Collection</h1>
-
-          <p>
+      </div>
+      <!-- <div class="nav-container">
+        <div class="box_bg-container">
+          <img src="./assets/img/slider-bg.jpg" alt="bg" />
+        </div>
+        <div class="text-container"> -->
+      <!-- <div class="nh-cont"> -->
+      <!-- <h1>Best Jewellery Collection</h1> -->
+      <!-- </div> -->
+      <!-- <div class="tt-cont"> -->
+      <!-- <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
             sapiente sed facere nobis pariatur ratione eaque temporibus,
             voluptate officiis aut architecto ipsa laudantium tempora tenetur.
-          </p>
-
-          <button>Shop Now</button>
-        </div>
-      </div>
+          </p> -->
+      <!-- </div> -->
+      <!-- <div class="bn-cont"> -->
+      <!-- <button>Shop Now</button> -->
+      <!-- </div> -->
+      <!-- </div> -->
+      <!-- </div> -->
 
       <!-- <div class="shop_btn-container" id="">
             <div class="custom-menu_btn">
@@ -58,12 +67,11 @@
     </header>
     <main>
       <!-- ******SECTION DU SLIDER BG********* -->
-      <!-- <section class="slider-position-bg">
+      <section class="slider-position-bg">
         <div class="slider-bg-box">
-          <img src="./images/slider-bg.jpg" alt="bg" />
+          <img src="./assets/img/slider-bg.jpg" alt="bg" />
         </div>
-        <div class="slider_bg"></div>
-        <div class="container">
+        <div class="slider_bg">
           <div class="container-detail">
             <div class="box-detail">
               <h1>
@@ -76,12 +84,13 @@
                 The point of using lorem
               </p>
               <div>
-                <a href="" class="slider-link">Shop Now</a>
+                <button>Shop Now</button>
+                <!-- <a href="" class="slider-link">Shop Now</a> -->
               </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!-- *********SECTION SHOP************* -->
       <section class="products">
@@ -101,10 +110,9 @@
                   <img src="./assets/img/p1.png" alt="ruby" />
                 </div>
                 <div class="detail-box">
-                  <h4>Necklace</h4>
+                  <h5>Necklace</h5>
                   <div>
-                    <h5>Price</h5>
-                    <h6>$200</h6>
+                    <h6>Price <span>$200</span></h6>
                   </div>
                 </div>
                 <!-- <div class="news"><span>new</span></div> -->
@@ -123,10 +131,9 @@
                 </div>
 
                 <div class="detail-box">
-                  <h4>Necklace</h4>
+                  <h5>Necklace</h5>
                   <div>
-                    <h5>Price</h5>
-                    <h6>$300</h6>
+                    <h6>Price <span>$300</span></h6>
                   </div>
                 </div>
               </a>
@@ -144,10 +151,9 @@
                 </div>
 
                 <div class="detail-box">
-                  <h4>Necklace</h4>
+                  <h5>Necklace</h5>
                   <div>
-                    <h5>Price</h5>
-                    <h6>$110</h6>
+                    <h6>Price <span>$110</span></h6>
                   </div>
                 </div>
               </a>
@@ -165,10 +171,9 @@
                 </div>
 
                 <div class="detail-box">
-                  <h4>Necklace</h4>
+                  <h5>Ring</h5>
                   <div>
-                    <h5>Price</h5>
-                    <h6>$45</h6>
+                    <h6>Price <span>$45</span></h6>
                   </div>
                 </div>
               </a>
@@ -186,10 +191,9 @@
                 </div>
 
                 <div class="detail-box">
-                  <h4>Necklace</h4>
+                  <h5>Ring</h5>
                   <div>
-                    <h5>Price</h5>
-                    <h6>$95</h6>
+                    <h6>Price <span>$95</span></h6>
                   </div>
                 </div>
               </a>
@@ -207,13 +211,11 @@
                 </div>
 
                 <div class="detail-box">
-                  <h4>necklace</h4>
+                  <h5>Earrings</h5>
                   <div>
-                    <h5>Price</h5>
-                    <h6>$70</h6>
+                    <h6>Price <span>$70</span></h6>
                   </div>
                 </div>
-                <div class="news"><span>new</span></div>
               </a>
             </div>
           </div>
@@ -229,10 +231,9 @@
                 </div>
 
                 <div class="detail-box">
-                  <h4>necklace</h4>
+                  <h5>Earrings</h5>
                   <div>
-                    <h5>Price</h5>
-                    <h6>$400</h6>
+                    <h6>Price <span>$400</span></h6>
                   </div>
                 </div>
               </a>
@@ -250,19 +251,18 @@
                 </div>
 
                 <div class="detail-box">
-                  <h4>Necklace</h4>
+                  <h5>Necklace</h5>
                   <div>
-                    <h5>Price</h5>
-                    <h6>$450</h6>
+                    <h6>Price <span>$450</span></h6>
                   </div>
                 </div>
               </a>
             </div>
           </div>
         </div>
-        <div class="btn-box">
-          <a href="">View All Products</a>
-        </div>
+
+        <button>View All Products</button>
+        <!-- <a href="">View All Products</a> -->
       </section>
       <!-- ******SECTION   ABOUT ********** -->
       <section class="about-container">
@@ -270,25 +270,29 @@
           <div class="row">
             <div class="img-banner">
               <div class="img-box">
-                <img src="./images/about-img.jpg" alt="about" />
+                <img src="./assets/img/about-img.jpg" alt="about" />
               </div>
             </div>
-            <div class="img-container">
-              <div class="detail-box">
-                <div class="heading-container">
-                  <h2>about us</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laborum numquam officiis natus veritatis autem possimus
-                    optio sit nam libero? Tempora sapiente eum, omnis illo
-                    laudantium modi facere ratione voluptas cum ab cupiditate
-                    voluptatem obcaecati deleniti. Sequi iste suscipit autem
-                    laudantium.
-                  </p>
-                  <a href="">read more</a>
-                </div>
-              </div>
+            <!-- <div class="img-container"> -->
+            <div class="detail-box">
+              <!-- <div class="heading-container"> -->
+
+              <h2>ABOUT US</h2>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                numquam officiis natus veritatis autem possimus optio sit nam
+                libero? Tempora sapiente eum, omnis illo laudantium modi facere
+                ratione voluptas cum ab cupiditate voluptatem obcaecati
+                deleniti. Sequi iste suscipit autem laudantium.
+              </p>
+
+              <button>Read More</button>
+
+              <!-- <a href="">read more</a> -->
+              <!-- </div> -->
             </div>
+            <!-- </div> -->
           </div>
         </div>
       </section>
@@ -303,7 +307,8 @@
               </div>
               <div class="box1-detail">
                 <h2>upto 15% off</h2>
-                <a href="">shop now</a>
+                <button>shop now</button>
+                <!-- <a href="">shop now</a> -->
               </div>
             </div>
             <!-- ******OFFER    RIGHT********* -->
@@ -313,14 +318,16 @@
               </div>
               <div class="box2-detail">
                 <h2>upto 10% off</h2>
-                <a href="">shop now</a>
+                <button>shop now</button>
+                <!-- <a href="">shop now</a> -->
               </div>
               <div class="img-box3-offer">
                 <img src="./images/o3.jpg" alt="platine" />
               </div>
               <div class="box3-detail">
                 <h2>upto 20% off</h2>
-                <a href="">shop now</a>
+                <button>shop now</button>
+                <!-- <a href="">shop now</a> -->
               </div>
             </div>
           </div>
@@ -342,7 +349,8 @@
                 <div class="box-left-detail">
                   <h5>Molestiae ad reiciendis dignissimos</h5>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                  <a href="">Read More</a>
+                  <button>Read More</button>
+                  <!-- <a href="">Read More</a> -->
                 </div>
               </div>
             </div>
@@ -358,7 +366,8 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Incidunt, nam.
                   </p>
-                  <a href="">Read More</a>
+                  <button>Read More</button>
+                  <!-- <a href="">Read More</a> -->
                 </div>
               </div>
             </div>
@@ -382,7 +391,9 @@
                         <img src="./images/client.jpg" alt="client" />
                       </div>
                       <div class="box-detail">
-                        <div class="name"><h6>Samantha Jonas</h6></div>
+                        <div class="name">
+                          <h6>Samantha Jonas</h6>
+                        </div>
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Totam, cumque. Omnis, sequi possimus.
@@ -401,7 +412,9 @@
                         <img src="./images/client.jpg" alt="client" />
                       </div>
                       <div class="box-detail">
-                        <div class="name"><h6>Samantha Jonas</h6></div>
+                        <div class="name">
+                          <h6>Samantha Jonas</h6>
+                        </div>
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Totam, cumque. Omnis, sequi possimus.
@@ -420,7 +433,9 @@
                         <img src="./images/client.jpg" alt="client" />
                       </div>
                       <div class="box-detail">
-                        <div class="name"><h6>Samantha Jonas</h6></div>
+                        <div class="name">
+                          <h6>Samantha Jonas</h6>
+                        </div>
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Totam, cumque. Omnis, sequi possimus.

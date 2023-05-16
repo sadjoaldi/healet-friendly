@@ -24,7 +24,7 @@ $color1: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  // text-align: center;
+  text-align: center;
 }
 
 li {
@@ -37,4 +37,25 @@ a {
 
 body {
   font-family: $font1;
+
+  h2 {
+    font-family: none;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 40px;
+    background: none;
+    color: #fd9c6b;
+    cursor: pointer;
+
+    border: 1px solid #fd9c6b;
+
+    &:hover {
+      content: "";
+      background: #fd9c6b;
+      color: whitesmoke;
+      transition: 0.5s;
+    }
+  }
 }
