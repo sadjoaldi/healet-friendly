@@ -73,7 +73,7 @@ header .head-nav-container .nav-container button:hover {
 }
 
 .products {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 .products .head-container h2 {
@@ -86,17 +86,54 @@ header .head-nav-container .nav-container button:hover {
 .products .product-img-container {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  gap: 35px;
+  margin: 0 auto;
 }
 .products .product-img-container .rows {
-  display: grid;
-  gap: 30px;
   background: #eeeeee;
-  height: 90%;
+  color: #000;
 }
 .products .product-img-container .rows .box-container {
-  background: url(../img/p1.png) center/cover;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  padding: 15px 10px;
+  position: relative;
 }
-.products .product-img-container .rows .box-container img {
-  width: 50%;
+.products .product-img-container .rows .box-container a {
+  width: 100%;
+  color: #000;
+}
+.products .product-img-container .rows .box-container a .new {
+  background: rgb(255, 253, 253);
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+.products .product-img-container .rows .box-container a .img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+}
+.products .product-img-container .rows .box-container a .img-cont img {
+  height: 180px;
+  padding: 20px 35px;
+}
+.products .product-img-container .rows .box-container a .detail-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products .product-img-container .rows .box-container a .detail-box div {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */

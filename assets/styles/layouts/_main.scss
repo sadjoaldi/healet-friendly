@@ -1,7 +1,6 @@
 .products {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
-  //   height: 70vh;
 
   .head-container {
     h2 {
@@ -15,26 +14,63 @@
   .product-img-container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    gap: 35px;
+
+    margin: 0 auto;
 
     .rows {
-        display: grid;
-        gap: 30px;
-        background: #eeeeee;
-        height: 90%;
+      background: #eeeeee;
+      color: #000;
 
-        .box-container {
-            background: url(../img/p1.png) center/cover;
-            height: 100px;
+      .box-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        padding: 15px 10px;
+        position: relative;
 
+        a {
+          width: 100%;
+          color: #000;
 
-            img {
-              width: 50%;
-            }
+          .new {
+            background: rgb(255, 253, 253);
+            height: 60px;
+            width: 60px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            position: absolute;
+            top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 100;
           }
 
+          .img-cont {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 240px;
 
+            img {
+              height: 180px;
+              padding: 20px 35px;
+            }
+          }
+          .detail-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            div {
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+      }
     }
-
-   
   }
 }
