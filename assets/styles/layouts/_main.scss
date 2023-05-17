@@ -1,10 +1,14 @@
 main {
   .slider-position-bg {
     display: flex;
-    justify-content: center;
+
     align-items: center;
     color: whitesmoke;
     height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 
     .slider-bg-box {
       img {
@@ -16,8 +20,36 @@ main {
     }
 
     .slider_bg {
-      position: relative;
-      z-index: 6;
+      width: 70%;
+
+      align-items: center;
+      z-index: 52;
+
+      .container-detail {
+        width: 100%;
+
+        .box-detail {
+          width: 80%;
+          margin: 0 auto;
+          display: grid;
+
+          h1 {
+            text-align: left;
+            font-size: 2.5rem;
+            padding: 15px 0;
+          }
+          p {
+            text-align: left;
+            padding: 0 0 25px;
+          }
+          div {
+            text-align: left;
+            button {
+              border-radius: 5px;
+            }
+          }
+        }
+      }
     }
   }
   .products {
