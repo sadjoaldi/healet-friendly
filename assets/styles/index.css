@@ -72,7 +72,9 @@ main .slider-position-bg {
   width: 100%;
 }
 main .slider-position-bg .slider-bg-box img {
+  transform: scale(1);
   width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -86,13 +88,14 @@ main .slider-position-bg .slider_bg .container-detail {
   width: 100%;
 }
 main .slider-position-bg .slider_bg .container-detail .box-detail {
-  width: 80%;
+  width: 49%;
   margin: 0 auto;
   display: grid;
 }
 main .slider-position-bg .slider_bg .container-detail .box-detail h1 {
+  width: 350px;
   text-align: left;
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   padding: 15px 0;
 }
 main .slider-position-bg .slider_bg .container-detail .box-detail p {
@@ -104,10 +107,12 @@ main .slider-position-bg .slider_bg .container-detail .box-detail div {
 }
 main .slider-position-bg .slider_bg .container-detail .box-detail div button {
   border-radius: 5px;
+  cursor: pointer;
 }
 main .products {
   max-width: 1100px;
   margin: 0 auto;
+  position: relative;
 }
 main .products .head-container h2 {
   text-transform: uppercase;
@@ -187,6 +192,8 @@ main .products button:hover {
 main .about-container {
   max-width: 1100px;
   margin: 0 auto;
+  position: relative;
+  padding: 0 0 30px;
 }
 main .about-container .container {
   margin: 25px 0;
@@ -209,6 +216,7 @@ main .about-container .container .row .img-banner .img-box:before {
   background: #160e0b;
   height: 250px;
   width: 250px;
+  top: 0;
   left: 0;
 }
 main .about-container .container .row .img-banner .img-box img {
@@ -223,11 +231,38 @@ main .about-container .container .row .detail-box {
 }
 main .about-container .container .row .detail-box h2 {
   text-align: left;
+  font-size: 1.7rem;
 }
 main .about-container .container .row .detail-box p {
   text-align: left;
+  padding: 7px 0 28px;
 }
 main .about-container .container .row .detail-box button {
   text-align: left;
-  width: 50%;
+  width: 35%;
+}
+main .offer-layout {
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+main .offer-layout .offer-container {
+  margin: 59px 0;
+  display: grid;
+}
+main .offer-layout .offer-container .row {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  grid-template-areas: "a b" "a c";
+}
+main .offer-layout .offer-container .row .offer-left-container {
+  grid-area: a;
+  width: 100%;
+}
+main .offer-layout .offer-container .row .offer-right1-container {
+  grid-area: b;
+}
+main .offer-layout .offer-container .row .offer-right2-container {
+  grid-area: c;
 }/*# sourceMappingURL=index.css.map */
