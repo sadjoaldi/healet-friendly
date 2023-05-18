@@ -243,13 +243,18 @@ main .about-container .container .row .detail-box button {
 }
 main .offer-layout {
   margin: 0 auto;
-  padding: 0 20px 40px;
+  padding: 0 10px;
 }
 main .offer-layout .offer-container {
-  margin: 59px 0;
-  display: grid;
+  margin: 59px auto;
+  display: flex;
+  align-items: center;
+}
+main .offer-layout .offer-container img {
+  width: 100%;
 }
 main .offer-layout .offer-container .row {
+  padding: 0 10px 0 0;
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: 1fr 1fr;
@@ -258,7 +263,6 @@ main .offer-layout .offer-container .row {
 }
 main .offer-layout .offer-container .row .offer-left-container {
   grid-area: a;
-  width: 100%;
 }
 main .offer-layout .offer-container .row .offer-right1-container {
   grid-area: b;

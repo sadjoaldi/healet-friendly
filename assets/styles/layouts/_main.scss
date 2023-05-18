@@ -213,12 +213,19 @@ main {
   }
   .offer-layout {
     margin: 0 auto;
-    padding: 0 20px 40px;
+    padding: 0 10px;
 
     .offer-container {
-      margin: 59px 0;
-      display: grid;
+      margin: 59px auto;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+
       .row {
+        padding: 0 10px 0 0;
         display: grid;
         grid-template-columns: 60% 40%;
         grid-template-rows: 1fr 1fr;
@@ -229,7 +236,7 @@ main {
 
         .offer-left-container {
           grid-area: a;
-          width: 100%;
+          // width: 100%;
         }
         .offer-right1-container {
           grid-area: b;
@@ -237,14 +244,6 @@ main {
         .offer-right2-container {
           grid-area: c;
         }
-
-        // .img-box1-offer{
-        //   grid-area: a;
-        // }
-
-        // .box1-detail{
-
-        // }
       }
     }
   }
