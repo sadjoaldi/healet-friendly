@@ -233,16 +233,78 @@ main {
         grid-template-areas:
           "a b"
           "a c";
+        position: relative;
 
         .offer-left-container {
           grid-area: a;
-          // width: 100%;
+
+          .box1-detail {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+
+            display: grid;
+
+            h4 {
+              color: whitesmoke;
+              font-size: 3.9rem;
+              padding: 0 0 25px 0;
+            }
+
+            button {
+              width: 159px;
+            }
+          }
         }
         .offer-right1-container {
           grid-area: b;
+
+          .box2-detail {
+            // position: absolute;
+            // bottom: 20px;
+            // right: 20px;
+          }
         }
         .offer-right2-container {
           grid-area: c;
+        }
+      }
+    }
+  }
+  .blog {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .blog-container {
+      margin: 60px 0;
+
+      .head-container {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        padding: 45px 0;
+      }
+      .row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+      }
+    }
+  }
+
+  .testimoni {
+    .test-container {
+      .head-test-container {
+      }
+
+      .carousel-slide {
+        width: 100%;
+        overflow: hidden;
+
+        .carousel-item {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
         }
       }
     }

@@ -260,13 +260,55 @@ main .offer-layout .offer-container .row {
   grid-template-rows: 1fr 1fr;
   gap: 15px;
   grid-template-areas: "a b" "a c";
+  position: relative;
 }
 main .offer-layout .offer-container .row .offer-left-container {
   grid-area: a;
+}
+main .offer-layout .offer-container .row .offer-left-container .box1-detail {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: grid;
+}
+main .offer-layout .offer-container .row .offer-left-container .box1-detail h4 {
+  color: whitesmoke;
+  font-size: 3.9rem;
+  padding: 0 0 25px 0;
+}
+main .offer-layout .offer-container .row .offer-left-container .box1-detail button {
+  width: 159px;
 }
 main .offer-layout .offer-container .row .offer-right1-container {
   grid-area: b;
 }
 main .offer-layout .offer-container .row .offer-right2-container {
   grid-area: c;
+}
+main .blog {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main .blog .blog-container {
+  margin: 60px 0;
+}
+main .blog .blog-container .head-container {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 45px 0;
+}
+main .blog .blog-container .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+main .testimoni .test-container .carousel-slide {
+  width: 100%;
+  overflow: hidden;
+}
+main .testimoni .test-container .carousel-slide .carousel-item {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }/*# sourceMappingURL=index.css.map */
