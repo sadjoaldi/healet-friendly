@@ -304,11 +304,64 @@ main .blog .blog-container .row {
   gap: 30px;
   align-items: center;
 }
+main .testimoni .test-container .head-test-container {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding: 45px 0;
+}
 main .testimoni .test-container .carousel-slide {
+  position: relative;
   width: 100%;
+  height: 600px;
   overflow: hidden;
 }
 main .testimoni .test-container .carousel-slide .carousel-item {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+main .testimoni .test-container .carousel-slide .carousel-item .carousel-item {
+  opacity: 1;
+}
+main .testimoni .test-container .carousel-slide .carousel-item .carousel-item img {
+  width: 100%;
+  height: auto;
+  z-index: 50;
+}
+main .testimoni .test-container .carousel-slide .carousel-item .carousel-item .box-detail h6,
+main .testimoni .test-container .carousel-slide .carousel-item .carousel-item .box-detail p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+}
+
+.slide h2 {
+  font-size: 24px;
+}
+
+.slide p {
+  font-size: 16px;
+}
+
+.carousel .prev,
+.carousel .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+.carousel .prev {
+  left: 10px;
+}
+
+.carousel .next {
+  right: 10px;
 }/*# sourceMappingURL=index.css.map */
