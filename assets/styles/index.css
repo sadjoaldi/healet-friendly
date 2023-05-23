@@ -367,11 +367,105 @@ main .testimoni .test-container .carousel-slide .carousel-item .carousel-item .b
 }
 
 .section {
-  background: #160e0b;
-  margin: 60px 0;
   padding: 20px 10px;
   color: whitesmoke;
 }
 .section .info-layout .container {
+  background: #160e0b;
+}
+.section .info-layout .container .info_row_form_social {
+  padding: 45px 0;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-items: center;
+}
+.section .info-layout .container .info_row_form_social .form {
   display: flex;
+  justify-content: center;
+}
+.section .info-layout .container .info_row_form_social .form input {
+  width: 80%;
+  text-align: left;
+  height: 60px;
+  outline: none;
+  color: rgb(163, 162, 162);
+}
+.section .info-layout .container .info_row_form_social .form button {
+  background: #fd9c6b;
+  display: flex;
+  align-items: center;
+}
+.section .info-layout .container .info_row_form_social .form button:hover {
+  background: none;
+}
+.section .info-layout .container .info_row_form_social .form button:hover i {
+  color: #fd9c6b;
+}
+.section .info-layout .container .info_row_form_social .form button i {
+  color: whitesmoke;
+  font-size: 0.9rem;
+}
+.section .info-layout .container .info_row_form_social .social_media {
+  display: flex;
+  justify-content: space-around;
+}
+.section .info-layout .container .info_row_form_social .social_media a {
+  border: 1px solid whitesmoke;
+  height: 50px;
+  width: 50px;
+}
+.section .info-layout .container .info_row_form_social .social_media a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+.section .info-layout .container .info_row_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+.section .info-layout .container .info_row_main h5 {
+  font-size: 1.6rem;
+  padding: 10px 0;
+}
+.section .info-layout .container .info_row_main .menu {
+  width: 50%;
+  margin: 0 auto;
+}
+.section .info-layout .container .info_row_main .menu h5 {
+  text-align: left;
+}
+.section .info-layout .container .info_row_main .menu li {
+  text-align: left;
+}
+.section .info-layout .container .info_row_main .insta-info {
+  display: grid;
+}
+.section .info-layout .container .info_row_main .insta-info .insta-box {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+.section .info-layout .container .info_row_main .insta-info .insta-box .tt-conte {
+  display: grid;
+}
+.section .info-layout .container .info_row_main .insta-info .insta-box .tt-conte img {
+  width: 100%;
+  background: whitesmoke;
+  align-items: center;
+}
+.section .info-layout .container .info_row_main .insta-info .insta-box p {
+  text-align: left;
+}
+.section .info-layout .container .info_row_main .aboutus h5 {
+  text-align: left;
+}
+.section .info-layout .container .info_row_main .aboutus p {
+  text-align: left;
 }/*# sourceMappingURL=index.css.map */

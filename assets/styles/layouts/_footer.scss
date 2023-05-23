@@ -1,12 +1,123 @@
 .section {
-  background: #160e0b;
-  margin: 60px 0;
   padding: 20px 10px;
   color: whitesmoke;
 
   .info-layout {
     .container {
-      display: flex;
+      background: #160e0b;
+      //   display: grid;
+
+      .info_row_form_social {
+        padding: 45px 0;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        align-items: center;
+
+        .form {
+          display: flex;
+          justify-content: center;
+
+          input {
+            width: 80%;
+            text-align: left;
+            height: 60px;
+            outline: none;
+            color: rgb(163, 162, 162);
+          }
+          button {
+            background: #fd9c6b;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+              background: none;
+
+              i {
+                color: #fd9c6b;
+              }
+            }
+
+            i {
+              color: whitesmoke;
+              font-size: 0.9rem;
+            }
+          }
+        }
+        .social_media {
+          display: flex;
+          justify-content: space-around;
+
+          a {
+            border: 1px solid whitesmoke;
+            height: 50px;
+            width: 50px;
+
+            i {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: whitesmoke;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+      .info_row_main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        height: 100%;
+
+        gap: 20px;
+
+        h5 {
+          font-size: 1.6rem;
+          padding: 10px 0;
+        }
+        .menu {
+          width: 50%;
+          margin: 0 auto;
+          h5 {
+            text-align: left;
+          }
+          li {
+            text-align: left;
+          }
+        }
+
+        .insta-info {
+          display: grid;
+          .insta-box {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9rem;
+
+            .tt-conte {
+              display: grid;
+
+              img {
+                width: 100%;
+                background: whitesmoke;
+                align-items: center;
+              }
+            }
+
+            p {
+              text-align: left;
+            }
+          }
+        }
+        .aboutus {
+          h5 {
+            text-align: left;
+          }
+          p {
+            text-align: left;
+          }
+        }
+      }
     }
   }
 }
