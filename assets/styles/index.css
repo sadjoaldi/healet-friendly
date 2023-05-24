@@ -430,11 +430,9 @@ main .testimoni .test-container .carousel-btn-container a i {
 }
 .section .info-layout .layout-contenaire .container .info_row_main {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   height: 100%;
-  padding: 40px;
-  gap: 20px;
+  padding: 18px;
 }
 .section .info-layout .layout-contenaire .container .info_row_main h5 {
   font-size: 1.6rem;
@@ -451,26 +449,21 @@ main .testimoni .test-container .carousel-btn-container a i {
   text-align: left;
   line-height: 35px;
 }
-.section .info-layout .layout-contenaire .container .info_row_main .insta-info {
-  display: grid;
-}
-.section .info-layout .layout-contenaire .container .info_row_main .insta-info .insta-box {
-  display: grid;
-  grid-template-columns: 30% 70%;
+.section .info-layout .layout-contenaire .container .info_row_main .insta-info .box-container .insta-box {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  padding: 10px;
   font-size: 0.9rem;
 }
-.section .info-layout .layout-contenaire .container .info_row_main .insta-info .insta-box .tt-conte {
-  display: grid;
-}
-.section .info-layout .layout-contenaire .container .info_row_main .insta-info .insta-box .tt-conte img {
-  padding: 18px;
-  width: 100%;
+.section .info-layout .layout-contenaire .container .info_row_main .insta-info .box-container .insta-box img {
+  margin: 15px;
+  height: 80px;
+  margin-bottom: 15px;
+  width: 80px;
   background: whitesmoke;
-  align-items: center;
 }
-.section .info-layout .layout-contenaire .container .info_row_main .insta-info .insta-box p {
+.section .info-layout .layout-contenaire .container .info_row_main .insta-info .box-container .insta-box p {
   text-align: left;
 }
 .section .info-layout .layout-contenaire .container .info_row_main .aboutus h5 {
@@ -478,6 +471,17 @@ main .testimoni .test-container .carousel-btn-container a i {
 }
 .section .info-layout .layout-contenaire .container .info_row_main .aboutus p {
   text-align: left;
+  width: 200px;
+}
+.section .info-layout .layout-contenaire .container .info_row_main .contactus {
+  width: 250px;
+}
+.section .info-layout .layout-contenaire .container .info_row_main .contactus li {
+  text-align: left;
+  font-size: 0.7rem;
+}
+.section .info-layout .layout-contenaire .container .info_row_main .contactus li i {
+  margin: 0 10px;
 }
 .section .info-layout .cop-container {
   height: 90px;

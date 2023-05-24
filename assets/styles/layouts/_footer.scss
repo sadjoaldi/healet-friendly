@@ -68,14 +68,10 @@
         }
         .info_row_main {
           display: flex;
-          justify-content: space-around;
-          // display: grid;
-          // grid-template-columns: 1fr 1fr 1fr 1fr;
+
           align-items: center;
           height: 100%;
-          padding: 40px;
-
-          gap: 20px;
+          padding: 18px;
 
           h5 {
             font-size: 1.6rem;
@@ -95,27 +91,26 @@
           }
 
           .insta-info {
-            display: grid;
-            .insta-box {
-              display: grid;
-              grid-template-columns: 30% 70%;
-              align-items: center;
-              gap: 10px;
-              font-size: 0.9rem;
-
-              .tt-conte {
-                display: grid;
+            .box-container {
+              // width: 300px;
+              .insta-box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                font-size: 0.9rem;
 
                 img {
-                  padding: 18px;
-                  width: 100%;
+                  margin: 15px;
+                  height: 80px;
+                  margin-bottom: 15px;
+                  width: 80px;
                   background: whitesmoke;
-                  align-items: center;
                 }
-              }
 
-              p {
-                text-align: left;
+                p {
+                  text-align: left;
+                }
               }
             }
           }
@@ -125,6 +120,18 @@
             }
             p {
               text-align: left;
+              width: 200px;
+            }
+          }
+          .contactus {
+            width: 250px;
+            li {
+              text-align: left;
+              font-size: 0.7rem;
+
+              i {
+                margin: 0 10px;
+              }
             }
           }
         }
