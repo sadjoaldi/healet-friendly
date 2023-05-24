@@ -3,120 +3,142 @@
   color: whitesmoke;
 
   .info-layout {
-    .container {
+    .layout-contenaire {
       background: #160e0b;
-      //   display: grid;
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
 
-      .info_row_form_social {
-        padding: 45px 0;
-        display: grid;
-        grid-template-columns: 75% 25%;
-        align-items: center;
+        //   display: grid;
 
-        .form {
-          display: flex;
-          justify-content: center;
+        .info_row_form_social {
+          padding: 45px 0;
+          display: grid;
+          grid-template-columns: 75% 25%;
+          align-items: center;
 
-          input {
-            width: 80%;
-            text-align: left;
-            height: 60px;
-            outline: none;
-            color: rgb(163, 162, 162);
-          }
-          button {
-            background: #fd9c6b;
+          .form {
             display: flex;
-            align-items: center;
+            justify-content: center;
 
-            &:hover {
-              background: none;
+            input {
+              width: 80%;
+              text-align: left;
+              height: 60px;
+              outline: none;
+              color: rgb(163, 162, 162);
+            }
+            button {
+              background: #fd9c6b;
+              display: flex;
+              align-items: center;
+
+              &:hover {
+                background: none;
+
+                i {
+                  color: #fd9c6b;
+                }
+              }
 
               i {
-                color: #fd9c6b;
+                color: whitesmoke;
+                font-size: 0.9rem;
               }
             }
-
-            i {
-              color: whitesmoke;
-              font-size: 0.9rem;
-            }
           }
-        }
-        .social_media {
-          display: flex;
-          justify-content: space-around;
+          .social_media {
+            display: flex;
+            justify-content: space-around;
 
-          a {
-            border: 1px solid whitesmoke;
-            height: 50px;
-            width: 50px;
-
-            i {
+            a {
+              border: 1px solid whitesmoke;
+              height: 50px;
+              width: 50px;
               display: flex;
               justify-content: center;
               align-items: center;
-              color: whitesmoke;
-              font-size: 1.2rem;
-            }
-          }
-        }
-      }
-      .info_row_main {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        align-items: center;
-        height: 100%;
 
-        gap: 20px;
-
-        h5 {
-          font-size: 1.6rem;
-          padding: 10px 0;
-        }
-        .menu {
-          width: 50%;
-          margin: 0 auto;
-          h5 {
-            text-align: left;
-          }
-          li {
-            text-align: left;
-          }
-        }
-
-        .insta-info {
-          display: grid;
-          .insta-box {
-            display: grid;
-            grid-template-columns: 30% 70%;
-            align-items: center;
-            gap: 10px;
-            font-size: 0.9rem;
-
-            .tt-conte {
-              display: grid;
-
-              img {
-                width: 100%;
-                background: whitesmoke;
-                align-items: center;
+              i {
+                color: whitesmoke;
+                font-size: 1.2rem;
               }
             }
+          }
+        }
+        .info_row_main {
+          display: flex;
+          justify-content: space-around;
+          // display: grid;
+          // grid-template-columns: 1fr 1fr 1fr 1fr;
+          align-items: center;
+          height: 100%;
+          padding: 40px;
 
+          gap: 20px;
+
+          h5 {
+            font-size: 1.6rem;
+            padding: 10px 0;
+          }
+          .menu {
+            width: 50%;
+            margin: 0 auto;
+
+            h5 {
+              text-align: left;
+            }
+            li {
+              text-align: left;
+              line-height: 35px;
+            }
+          }
+
+          .insta-info {
+            display: grid;
+            .insta-box {
+              display: grid;
+              grid-template-columns: 30% 70%;
+              align-items: center;
+              gap: 10px;
+              font-size: 0.9rem;
+
+              .tt-conte {
+                display: grid;
+
+                img {
+                  padding: 18px;
+                  width: 100%;
+                  background: whitesmoke;
+                  align-items: center;
+                }
+              }
+
+              p {
+                text-align: left;
+              }
+            }
+          }
+          .aboutus {
+            h5 {
+              text-align: left;
+            }
             p {
               text-align: left;
             }
           }
         }
-        .aboutus {
-          h5 {
-            text-align: left;
-          }
-          p {
-            text-align: left;
-          }
-        }
+      }
+    }
+    .cop-container {
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(27, 26, 26, 0.671);
+
+      a {
+        color: rgba(27, 26, 26, 0.671);
       }
     }
   }

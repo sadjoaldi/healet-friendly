@@ -294,6 +294,7 @@ main {
   }
 
   .testimoni {
+    margin: 100px 0;
     .test-container {
       .head-test-container {
         text-transform: uppercase;
@@ -302,45 +303,66 @@ main {
       }
 
       .carousel-slide {
-        // height: 500px;
-        // max-width: 850px;
-        // margin: 0 auto;
-        // width: 100%;
-        // overflow: hidden;
+        margin: 0 auto;
         position: relative;
-        width: 100%;
-        height: 600px;
+        width: 55%;
+        height: 370px;
         overflow: hidden;
+        background: #160e0b;
+        color: whitesmoke;
+        border-radius: 17px;
 
         .carousel-item {
+          padding: 30px 0;
           position: absolute;
           top: 0;
           left: 0;
           width: 100%;
-          height: 100%;
-          opacity: 1;
-          transition: opacity 0.5s ease-in-out;
+          display: block;
 
-          .carousel-item {
-            opacity: 1;
+          img {
+            width: 200px;
+            border-radius: 150px;
+            border: 7px solid gray;
+          }
 
-            img {
-              width: 100%;
-              height: auto;
-              z-index: 50;
+          .box-detail {
+            h6 {
+              font-size: 1.3rem;
+              color: #fd9c6b;
             }
-
-            .box-detail {
-              h6,
-              p {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                padding: 10px;
-                margin: 0;
-                color: #fff;
-              }
+            p {
+              width: 90%;
+              margin: 0 auto;
             }
+            i {
+              padding: 15px 0;
+            }
+          }
+        }
+      }
+      .carousel-btn-container {
+        width: 50%;
+        margin: 0 auto;
+        padding: 30px 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+
+        a {
+          background: #fd9c6b;
+          border: 1px solid none;
+          border-radius: 5px;
+          width: 50px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          i {
+            color: #eeeeee;
           }
         }
       }
@@ -383,26 +405,26 @@ main {
 //   color: #fff;
 // }
 
-.slide h2 {
-  font-size: 24px;
-}
+// .slide h2 {
+//   font-size: 24px;
+// }
 
-.slide p {
-  font-size: 16px;
-}
+// .slide p {
+//   font-size: 16px;
+// }
 
-.carousel .prev,
-.carousel .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 30px;
-}
+// .carousel .prev,
+// .carousel .next {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   font-size: 30px;
+// }
 
-.carousel .prev {
-  left: 10px;
-}
+// .carousel .prev {
+//   left: 10px;
+// }
 
-.carousel .next {
-  right: 10px;
-}
+// .carousel .next {
+//   right: 10px;
+// }
